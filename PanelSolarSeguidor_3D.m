@@ -49,8 +49,8 @@ load('PanelSolarSeguidor.mat')
    eficiencia_custom=10;
 
 %iniciar simulacion
-    sim('PanelSolarSeguidor.slx',Simulation_Time);
-    simout=sim("PanelSolarSeguidor.slx");
+    sim('PanelSolarSeguidor_mk2_comp.slx',Simulation_Time);
+    simout=sim("PanelSolarSeguidor_mk2_comp.slx");
 
 %Definir angulos
  %alfa
